@@ -41,7 +41,7 @@ const pAequorFactory = (specimenNum, dna) => {
           chance++;
         }
       }
-      return (chance / this.dna.length * 100) >= 60
+      return (chance / this.dna.length * 100) >= 60;
     }
   }
 }
